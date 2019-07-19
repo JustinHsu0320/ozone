@@ -25,11 +25,6 @@
 3. 实现了 `/api/v1/user/me` 用户资料接口(需要登录后获取 Session)
 4. 实现了 `/api/v1/user/logout` 用户登出接口(需要登录后获取 Session)
 
-## 视频基础模型API
-
-1. 实现了 `/api/v1/videos` 视频投稿(post),视频列表(get)
-2. 实现了 `/api/v1/video:id` 视频更新(post),视频详情(get),删除视频(delete)
-
 本项目已经预先创建了一系列文件夹划分出下列模块:
 
 1. `api` 文件夹就是MVC框架的 Controller，负责协调各部件完成任务
